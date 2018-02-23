@@ -44,7 +44,7 @@ h2 {
     font-size: 22px; 
 }
 
-/*header*/
+/* header */
 
 #maintopheader {
     width: 100%; 
@@ -90,7 +90,7 @@ nav a:first-child {
     border-left: 0 none;
 }
 
-/*main*/
+/* main */
 
 #maincontainer {
     padding-top:130px; 
@@ -114,7 +114,7 @@ nav a:first-child {
     margin-right: 25px; 
 }
 
-/*sidebar*/
+/* sidebar */
 
 .sidebar {
     background-color: #ffffff;
@@ -128,6 +128,7 @@ nav a:first-child {
 
  .sidebar, h2 {
     border-bottom: 2px solid #eee; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
     padding-bottom: 20px; 
     margin-bottom: 15px; 
     line-height: 22px; 
@@ -144,7 +145,7 @@ nav a:first-child {
     margin-right: 0; 
 }
 
-/* Portfolio Section*/
+/* Portfolio Section */
 
 .leftpicture {
     float: left;
@@ -176,11 +177,10 @@ nav a:first-child {
     position: absolute;
     bottom: 10px;
     width: 100%;
-    margin-bottom: 13px; 
-    
+    margin-bottom: 13px;   
 }
 
-/*footer*/
+/* footer */
 .footer {
     padding: 30px 0;
     clear: both;
@@ -192,3 +192,46 @@ nav a:first-child {
     border-top: 8px solid #4aaaa5;
     height: 50px;
   }
+
+  /* contact page */
+
+#contactform ul {
+    margin-bottom: 20px; 
+}
+
+#contactform li {
+    margin-bottom: 10px;
+}
+
+label, 
+input[type=text],
+input[type=email],
+textarea {
+    display: block; 
+    width: 100%; 
+}
+
+#names {
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px; 
+    border: 1px solid #ddd; 
+    padding: 0 10px, 
+    font-size:15px;  
+}
+
+input[type=submit] {
+    background-color: #4aaaa5; 
+    font-size: 18px; 
+    color: #fff; 
+    border: 0 none; 
+    padding: 10px 30px; 
+    cursor: pointer; 
+}
+
+textarea {
+    height: 200px; 
+}
