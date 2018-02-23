@@ -32,6 +32,8 @@ h1, h2, h3 {
 }
 
 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: 700; 
     font-size: 30px; 
     line-height: 49px; 
     border-bottom: 3px solid #ddd; 
@@ -94,13 +96,13 @@ nav a:first-child {
     padding-top:130px; 
 }
 
-.main-section {
+.mainsection {
     float: left;
     width: 100%;
     max-width: 650px;
     padding: 30px;
     margin: 0 0 40px;
-    background: #fff;
+    background-color: #fff; 
     position: fixed; 
     border: 1px solid #ddd;
 }
@@ -154,4 +156,5 @@ footer {
     color: #ccc; 
     font-size: 12px; 
     text-align: center; 
+    height: 50px; 
 }
