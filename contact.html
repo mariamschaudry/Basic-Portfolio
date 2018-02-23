@@ -31,18 +31,29 @@
 <div id="maincontainer" class="container">   
     
     <section class="mainsection">
-
-        <h1>About Me</h1>
+ 
+        <h1>Contact</h1>
     
-    
-        <img src="assets/images/profilepicture.jpg" alt="Mariam S. Chaudry" class="profilepicture">
+        <form id="contactform">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                </li>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget augue a eros ornare porttitor. Morbi id cursus odio. Curabitur tincidunt augue non mi efficitur sagittis. Etiam convallis imperdiet leo, vitae dictum ante suscipit et.</p>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                </li>
 
-        <p>Nulla ut arcu vel ex posuere varius et vitae leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras laoreet lectus tempor ante aliquet consequat. Aliquam sed sapien id risus rutrum placerat.</p> 
-    
-        <p>Sed arcu elit, facilisis ac purus non, venenatis vehicula lacus. Quisque eu quam leo. Maecenas eget odio sagittis, bibendum turpis ut, sollicitudin nibh. Nullam sollicitudin mollis quam a aliquam.</p>
-   
+                <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="John Smith" required="required"></textarea>
+                </li> 
+            </ul>
+            <input type="submit" name="submit">
+        </form>
+        
     </section>
 
     <section class="sidebar">
@@ -72,4 +83,4 @@
 
 
 
-  
+   
