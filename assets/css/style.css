@@ -216,8 +216,8 @@ input[type=email],
 textarea {
     height: 35px; 
     border: 1px solid #ddd; 
-    padding: 0 10px, 
-    font-size:15px;  
+    padding: 0 10px; 
+    font-size: 15px;  
 }
 
 input[type=submit] {
